@@ -1,0 +1,20 @@
+.credit-card {
+
+  &__content {
+
+
+    &-title {
+      margin: 0 35px;
+      &-subtitle {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+
+  }
+}

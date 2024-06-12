@@ -1,0 +1,21 @@
+<div class="credit-card">
+
+  <app-header titleInput="Cartão de credito" color="orange" [imgPath]="creditCardIcon" ></app-header>
+
+  <div class="credit-card__content" bgColor>
+    <div class="credit-card__content-title">
+      <div class="credit-card__content-title-subtitle">
+        <p>1231312311</p>
+        <p>Nome do fulano</p>
+      </div>
+      <p>Felipe Freitas</p>
+    </div>
+
+
+    <app-card-line [content]="'123132233'" [itemValue]="'MASTER CARD'" ></app-card-line>
+    <app-card-line [content]="'123132233'" [itemValue]="'MASTER CARD'" [isa]="false"></app-card-line>
+    <app-card-line [content]="'123132233'" [itemValue]="'MASTER CARD'" [isa]="true"></app-card-line>
+    <app-card-line [content]="'123132233'" [itemValue]="'MASTER CARD'" [isa]="false"></app-card-line>
+    <app-card-line [content]="'123132233'" [itemValue]="'MASTER CARD'" [isa]="false"></app-card-line>
+  </div>
+</div>
