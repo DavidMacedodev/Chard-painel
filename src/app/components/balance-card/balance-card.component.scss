@@ -1,0 +1,23 @@
+.balance-card {
+
+  &__content {
+
+    height: 650px
+
+
+  }
+
+  &__content-summary {
+    background-color: rgb(153, 146, 136);
+    margin: 20px 30px;
+    height: 130px;
+  }
+  &__content-item {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 35px;
+
+  }
+}
