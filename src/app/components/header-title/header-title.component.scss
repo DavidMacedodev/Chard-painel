@@ -1,0 +1,14 @@
+.item-card {
+  &__header-title{
+    display: flex;
+    gap:15px;
+    align-items: center;
+
+    img {
+      padding-left: 10px;
+    }
+    h1 {
+      font-size: 22px;
+    }
+  }
+}
