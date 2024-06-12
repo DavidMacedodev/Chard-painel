@@ -1,0 +1,14 @@
+.item-card {
+
+  &__content-item {
+    display: flex;
+    padding: 35px;
+   align-items: center;
+   justify-content: space-between;
+
+  }
+  &__content-line {
+    border: 1px solid #0a0909;
+    margin:0 20px;
+}
+}
